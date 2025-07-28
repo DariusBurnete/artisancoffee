@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: artisan-coffee
+  datasource:
+    url: jdbc:postgresql://localhost:5432/coffee_shop
+    username: coffee_user
+    password: coffee_pass
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
