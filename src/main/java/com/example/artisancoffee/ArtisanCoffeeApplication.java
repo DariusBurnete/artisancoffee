@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ArtisanCofeeApplication {
+public class ArtisanCoffeeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ArtisanCofeeApplication.class, args);
+		SpringApplication.run(ArtisanCoffeeApplication.class, args);
 	}
 
 }
+
